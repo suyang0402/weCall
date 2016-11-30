@@ -31,4 +31,14 @@
         android:layout_centerHorizontal="true"
         android:text="Place Holder"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_info_text2"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Place Holder"
+        android:autoLink="phone"/>
+
 </RelativeLayout>
