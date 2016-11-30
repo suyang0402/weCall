@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 /**
@@ -22,7 +24,7 @@ import java.util.ArrayList;
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
 
-    private ArrayList<String> contacts = new ArrayList<String>();
+    private ArrayList<saveContact> contacts = new ArrayList<saveContact>();
 
     //  Constructor 1
     public ImageAdapter(Context c) {
@@ -31,7 +33,7 @@ public class ImageAdapter extends BaseAdapter {
 
 
     //  Constructor 2 with array list
-    public ImageAdapter(Context c, ArrayList<String> list){
+    public ImageAdapter(Context c, ArrayList<saveContact> list){
         mContext = c;
         contacts = list;            //  Save the list of contacts
     }
@@ -65,9 +67,14 @@ public class ImageAdapter extends BaseAdapter {
 
             grid = new View(mContext);
             grid = inflater.inflate(R.layout.grid_single, null);
-            TextView textView = (TextView) grid.findViewById(R.id.grid_text);
+            TextView textView = (TextView) grid.findViewById(R.id.grid_name);
+            TextView textView1 = (TextView) grid.findViewById(R.id.grid_last_time_contact);
+            TextView textView2 = (TextView) grid.findViewById(R.id.grid_phone_number);
             ImageView imageView = (ImageView) grid.findViewById(R.id.grid_img);
-            textView.setText(contacts.get(position));
+
+            textView.setText(contacts.get(position).getContact_name());
+            textView1.setText(contacts.get(position).getString_last_time_contacted());
+            textView2.setText(contacts.get(position).getString_phone_number());
 
             imageView.setImageResource(mThumbIds[3]);
 

@@ -17,11 +17,28 @@
     </ImageView>
 
     <TextView
-        android:id="@+id/grid_text"
+        android:id="@+id/grid_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:textSize="9sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/grid_last_time_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="9sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/grid_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="9sp"
+        >
     </TextView>
 
 </LinearLayout>

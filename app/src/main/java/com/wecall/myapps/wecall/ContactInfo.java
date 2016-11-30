@@ -7,8 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ContactInfo extends AppCompatActivity {
-    private int contactNumber;
-
+    private String contactNumber;
+    private String contactName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +22,26 @@ public class ContactInfo extends AppCompatActivity {
 
 
         //  Test is the variable name 0 is the value if we dont get any sent value with us
-        contactNumber = dogNumber.getIntExtra("Test", 0);
+        //contactNumber = dogNumber.getIntExtra("Test", 0);
 
+        contactName = dogNumber.getStringExtra("Name");
+
+        contactNumber = dogNumber.getStringExtra("Number");
 
         //  Set the text view
         TextView textView = (TextView) findViewById(R.id.contact_info_text1);
-        textView.setText("The dog number you have clicked on is: " + contactNumber);
+        //textView.setText("The dog number you have clicked on is: " + contactNumber);
+        textView.setText("The user you have clicked on is: " + contactName);
+
+
+        TextView textView1 = (TextView) findViewById(R.id.contact_info_text2);
+        textView1.setText(contactNumber);
+
+
+
+
+
+
 
 
 
@@ -35,7 +49,7 @@ public class ContactInfo extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.big_contact_info_pic);
 
         //  Not the same dog as we clicked on, fix this later
-        imageView.setImageResource(mThumbIds[contactNumber]);
+        imageView.setImageResource(mThumbIds[3]);
 
     }
 

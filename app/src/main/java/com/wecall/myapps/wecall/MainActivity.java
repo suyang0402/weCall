@@ -21,7 +21,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private GridView mGridView;
-    private ArrayList<String> contacts;
+    private ArrayList<saveContact> contacts;             //  We save all the contacts here
 
     // Request code for READ_CONTACTS. It can be any number > 0.
     private static final int PERMISSIONS_REQUEST_READ_CONTACTS = 100;
@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 //  Send extra variable with put extra
                 //  Start new activity
                 Intent intent = new Intent(MainActivity.this, ContactInfo.class);
-                intent.putExtra("Test", position);
+                intent.putExtra("Name", contacts.get(position).getContact_name());
+                intent.putExtra("Number", contacts.get(position).getString_phone_number());
                 startActivity(intent);
 
 
@@ -104,25 +105,22 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return a list of names.
      */
-    private ArrayList<String> getContactNames() {
-        ArrayList<String> contacts = new ArrayList<>();
-        // Get the ContentResolver
-        ContentResolver cr = getContentResolver();
-        // Get the Cursor of all the contacts
-        Cursor cursor = cr.query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
+    private ArrayList<saveContact> getContactNames() {
+        ArrayList<saveContact> contacts = new ArrayList<>();
 
-        // Move the cursor to first. Also check whether the cursor is empty or not.
-        if (cursor.moveToFirst()) {
-            // Iterate through the cursor
-            do {
-                // Get the contacts name
-                String name = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
-                //String name = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.TIMES_CONTACTED));
-                contacts.add(name);
-            } while (cursor.moveToNext());
+        Cursor phones = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null,null,null, null);
+        while (phones.moveToNext())
+        {
+            String contactName=phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+            String contactNumber = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+            String lastTime= phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.LAST_TIME_CONTACTED));
+            saveContact s1 = new saveContact(contactName, lastTime,contactNumber);
+            contacts.add(s1);
+
         }
-        // Close the curosor
-        cursor.close();
+        phones.close();
+
+
 
         return contacts;
     }
