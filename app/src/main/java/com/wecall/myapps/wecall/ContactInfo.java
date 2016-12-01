@@ -1,14 +1,19 @@
 package com.wecall.myapps.wecall;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class ContactInfo extends AppCompatActivity {
     private String contactNumber;
     private String contactName;
+    private String contactLastDate;
+    private String contactPhotoID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,17 +33,22 @@ public class ContactInfo extends AppCompatActivity {
 
         contactNumber = dogNumber.getStringExtra("Number");
 
+        contactLastDate = dogNumber.getStringExtra("LastContact");
+
+        contactPhotoID = dogNumber.getStringExtra("PhotoID");
+
         //  Set the text view
         TextView textView = (TextView) findViewById(R.id.contact_info_text1);
         //textView.setText("The dog number you have clicked on is: " + contactNumber);
-        textView.setText("The user you have clicked on is: " + contactName);
+        textView.setText(contactName);
 
 
         TextView textView1 = (TextView) findViewById(R.id.contact_info_text2);
         textView1.setText(contactNumber);
 
 
-
+        TextView textView2 = (TextView) findViewById(R.id.date_string);
+        textView2.setText(contactLastDate);
 
 
 
@@ -48,25 +58,22 @@ public class ContactInfo extends AppCompatActivity {
         //  Set the imageview
         ImageView imageView = (ImageView) findViewById(R.id.big_contact_info_pic);
 
-        //  Not the same dog as we clicked on, fix this later
-        imageView.setImageResource(mThumbIds[3]);
+
+
+        if (contactPhotoID != null) {
+            imageView.setImageURI(Uri.parse(contactPhotoID));
+        } else {
+            //  Not the same dog as we clicked on, fix this later
+            imageView.setImageResource(mThumbIds[0]);
+        }
+
 
     }
 
 
     // references to our images
     private Integer[] mThumbIds = {
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7,
-            R.drawable.sample_0, R.drawable.sample_1,
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7,
-            R.drawable.sample_0, R.drawable.sample_1,
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7
+            R.drawable.person
     };
 
 
