@@ -1,5 +1,7 @@
 package com.wecall.myapps.wecall;
 
+import java.util.Date;
+
 /**
  * Created by Jacob on 11/30/16.
  */
@@ -8,10 +10,10 @@ public class saveContact {
     String contact_name;
     String string_last_time_contacted;
     int int_last_time_contacted;
-
     String string_phone_number;
+    String correctlyFormatedDate;
+    String photoID;
     int int_phone_number;
-
 
     //  Constructor 1
     saveContact() {
@@ -21,21 +23,21 @@ public class saveContact {
     }
 
 
-    //  Constructor 2 parameters
+    //  Constructor 1 parameter
     saveContact(String contact_name) {
         this.contact_name = contact_name;
 
     }
 
 
-    //  Constructor
+    //  Constructor 2 parameters
     saveContact(String contact_name, String string_last_time_contacted) {
         this.contact_name = contact_name;
         this.string_last_time_contacted = string_last_time_contacted;
     }
 
 
-    //  Constructor
+    //  Constructor 3 params
     saveContact(String contact_name, String string_last_time_contacted, String string_phone_number) {
         this.contact_name = contact_name;
         this.string_last_time_contacted = string_last_time_contacted;
@@ -43,8 +45,45 @@ public class saveContact {
     }
 
 
+    //  Constructor 4 params
+    saveContact(String contact_name, String string_last_time_contacted, String string_phone_number, String correctlyFormatedDate) {
+        this.contact_name = contact_name;
+        this.string_last_time_contacted = string_last_time_contacted;
+        this.string_phone_number = string_phone_number;
+        this.correctlyFormatedDate = correctlyFormatedDate;
+    }
+
+
+    //  Constructor 5 params
+    //  This is the one that is used
+    saveContact(String contact_name, String string_last_time_contacted, String string_phone_number, String correctlyFormatedDate, String photoID) {
+        this.contact_name = contact_name;
+        this.string_last_time_contacted = string_last_time_contacted;
+        this.string_phone_number = string_phone_number;
+        this.correctlyFormatedDate = correctlyFormatedDate;
+        this.photoID = photoID;
+    }
+
 
     //  Getters and setters
+
+
+    public String getPhotoID() {
+        return photoID;
+    }
+
+    public void setPhotoID(String photoID) {
+        this.photoID = photoID;
+    }
+
+    public String getCorrectlyFormatedDate() {
+        return correctlyFormatedDate;
+    }
+
+    public void setCorrectlyFormatedDate(String correctlyFormatedDate) {
+        this.correctlyFormatedDate = correctlyFormatedDate;
+    }
+
     public String getContact_name() {
         return contact_name;
     }

@@ -2,6 +2,7 @@ package com.wecall.myapps.wecall;
 
 import android.content.Context;
 import android.media.Image;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +14,9 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by Jacob on 11/29/16.
@@ -55,30 +58,22 @@ public class ImageAdapter extends BaseAdapter {
 
     // create a new ImageView for each item referenced by the Adapter
     public View getView(int position, View convertView, ViewGroup parent) {
-        //                  ImageView imageView;
-
         View grid;
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 
         if (convertView == null) {
 
-
-
             grid = new View(mContext);
             grid = inflater.inflate(R.layout.grid_single, null);
-            TextView textView = (TextView) grid.findViewById(R.id.grid_name);
-            TextView textView1 = (TextView) grid.findViewById(R.id.grid_last_time_contact);
-            TextView textView2 = (TextView) grid.findViewById(R.id.grid_phone_number);
-            ImageView imageView = (ImageView) grid.findViewById(R.id.grid_img);
-
-            textView.setText(contacts.get(position).getContact_name());
-            textView1.setText(contacts.get(position).getString_last_time_contacted());
-            textView2.setText(contacts.get(position).getString_phone_number());
-
-            imageView.setImageResource(mThumbIds[3]);
 
 
+            //  Had problems with gridview because i put all my code here
+            /*
+             I think the behavior you see its normal because all you do in your adapter is populating the first visible elements
+              and then the adapter will be reusing the exact same elements when you scroll up and down because of the recycling.
+              http://stackoverflow.com/questions/10672273/why-items-change-order-upon-scrolling-in-android-gridview
+             */
 
 
 
@@ -87,27 +82,33 @@ public class ImageAdapter extends BaseAdapter {
 
 
         } else {
-            //              imageView = (ImageView) convertView;
+
             grid = (View) convertView;
         }
+        TextView textView = (TextView) grid.findViewById(R.id.grid_name);
+        TextView textView1 = (TextView) grid.findViewById(R.id.grid_last_time_contact);
+        TextView textView2 = (TextView) grid.findViewById(R.id.grid_phone_number);
+        ImageView imageView = (ImageView) grid.findViewById(R.id.grid_img);
 
-        //              imageView.setImageResource(mThumbIds[position]);
-        //              return imageView;
+
+
+
+        textView.setText(contacts.get(position).getContact_name());
+        textView1.setText(contacts.get(position).getCorrectlyFormatedDate());
+        textView2.setText(contacts.get(position).getString_phone_number());
+
+
+        if (contacts.get(position).getPhotoID() != null) {
+            imageView.setImageURI(Uri.parse(contacts.get(position).getPhotoID()));
+        } else {
+            imageView.setImageResource(mThumbIds[0]);
+        }
+
         return grid;
     }
 
     // references to our images
     private Integer[] mThumbIds = {
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7,
-            R.drawable.sample_0, R.drawable.sample_1,
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7,
-            R.drawable.sample_0, R.drawable.sample_1,
-            R.drawable.sample_2, R.drawable.sample_3,
-            R.drawable.sample_4, R.drawable.sample_5,
-            R.drawable.sample_6, R.drawable.sample_7
+            R.drawable.person
     };
 }
