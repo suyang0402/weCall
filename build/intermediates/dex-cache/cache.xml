@@ -3,183 +3,210 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Jacob/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_5bdeae469a3a746d851d684e074747824f6bcdac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_42bea2b448323c3daa18faad414e6bbc6d097222/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_00e97feaa87259b87be22187c251d240a4fdfd08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_25d512bc67374f2ff15779bd6125f521a7fa5579/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fd47c399cb5d8e8cf4119b6b27638d221ccc1c29/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_2292704a2945abf3aa7436aad15536f00cf63753/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f640580cf6f1833d5bf77af6d71deb054605b2e5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_432662eb938814c6bc196f399bc551c26a3ee57c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_fa0aabf56e7fadeacbe586f204725f66ae25223d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8dc34acfc92091170060d9d48c602626e64b3005/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_12d297086b5d22339e88f1ec5899d89a49713290/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_014e38b99f002af1d401d3c98923619d2266117c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_fb6f946d619acf790445bb9a5e2ef4cbf8e7a103/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_aee5b54fb34ba0645602661f1294c01e1df1048a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7970ec1814549a844532b4a617818b923c3f3883">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d67da9ae1da35e854ad7f7db90712d20b82ce08e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1f1b8ac5dc0558a4357e5b7c261ae7d3dca8d141/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_bd580b967ed078fc105a2b045d0ba72fbd51595e/classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_d4d678b6400bdcf6fa0edc9a9f8f5f2ed87a48c4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_4f06a1dd6924ce5c22e1377706d5257fcfe7fa1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_102dcadffdf128ae01d182919715668d821ac715\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_4337c52d3d284cdc294033a73872b261f3e9868d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bd891725cc3864aefe37f3fd2d5ffb2da44fec8">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3d8e8253da7d1cca594e0ba5d4649fae7bf3d148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_882f9dcd53508cc388f48972a947a86548471c7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_3e0d517b0a5b5dd67e17b428864c676be6230904/classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_6d172cb84c5000af3ee2f41544f2ee3b9dd27a84\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="80593f866eb1a2813b4245ae9f06b5943c9fa087">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_46019800df97b344dea1df86a93425794ef83539/classes.dex" />
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_775a4259e35effd35ff0a58cc829ebad403be5c4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Jacob/Documents/weCall/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_d35f19ae4d431ffedd05204b3af4eb495bc8fc5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Jacob/Documents/weCall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_6afaed3ff6acdc69f9251b518ca0230712f3d76b/classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_1352d34d64002228443d9ab32afbcbbff4f3079f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cabca5f60ebd90beb3b0f009306e5a82c383f426\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9741fb6ec8563522c0b1781a73e9d0f3d1822430">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9f8f55ea26c783ebe05d4325faeec547fea81a3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_5993798ef854b61872d17e85144c524c87d773ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_2659940266fc691a4341dcf6584d3c9391bbaea2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_a34f735dbb7c8a6cf01a4af135d28952caf3c5d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_6e2581a3246409ca3fef270b2aceec2d5b35cfff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_4d62e8df33f8b4e8d8b7eae8e7da8f839a89b41b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_bb962a60ef57a93e6f914dec8df177475af7756c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_e6d143d416ab69bdbd69da5d21ce903086af0fe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ed99a92902d6a9b8e52fe21ce89b778c75181f9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_dc25779b778585577e8883aea54b4dd429a87e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\kth\Andriod App\weCall-master\weCall-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_f7998970fe94ac4fce42d1ff02b495aaa38b05c4\classes.dex" />
     </item>
 
 </items>

@@ -1,13 +1,20 @@
 package com.wecall.myapps.wecall;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
+
+import java.io.IOException;
+
+import static com.wecall.myapps.wecall.MainActivity.cropToSquare;
 
 public class ContactInfo extends AppCompatActivity {
     private String contactNumber;
@@ -60,11 +67,29 @@ public class ContactInfo extends AppCompatActivity {
 
 
 
+//        if (contactPhotoID != null) {
+//            imageView.setImageURI(Uri.parse(contactPhotoID));
+//        } else {
+//            //  Not the same dog as we clicked on, fix this later
+//            imageView.setImageResource(mThumbIds[0]);
+//        }
+
         if (contactPhotoID != null) {
-            imageView.setImageURI(Uri.parse(contactPhotoID));
+            Uri photoUri = Uri.parse(contactPhotoID);
+            try {
+                Bitmap photoBitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), photoUri);
+                BitmapDrawable photoDrawable = new BitmapDrawable(getResources(), cropToSquare(photoBitmap));
+                imageView.setBackgroundDrawable(photoDrawable);
+            } catch (IOException e) {
+                e.printStackTrace();
+                imageView.setBackgroundResource(R.drawable.person);
+
+            }
+
         } else {
-            //  Not the same dog as we clicked on, fix this later
-            imageView.setImageResource(mThumbIds[0]);
+            imageView.setBackgroundResource(R.drawable.person);
+
+
         }
 
 

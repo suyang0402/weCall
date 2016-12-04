@@ -1,9 +1,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
+              android:layout_height="0dp"
               android:orientation="vertical"
-              android:padding="5dp" >
+              android:padding="3dp"
+
+    >
+
 
     <ImageView
         android:id="@+id/grid_img"
@@ -11,34 +14,39 @@
         android:scaleType="fitCenter"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:maxWidth="55dp"
-        android:maxHeight="55dp"
-        android:layout_marginLeft="3dp">
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:cropToPadding="false">
     </ImageView>
 
     <TextView
         android:id="@+id/grid_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:textSize="9sp" >
+        android:layout_marginTop="3dp"
+        android:textSize="10sp"
+        android:layout_gravity="center">
     </TextView>
 
     <TextView
         android:id="@+id/grid_last_time_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:textSize="9sp" >
+        android:layout_marginTop="3dp"
+        android:textSize="9sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center">
     </TextView>
 
-    <TextView
-        android:id="@+id/grid_phone_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:textSize="9sp"
-        >
-    </TextView>
+    <!--<TextView-->
+        <!--android:id="@+id/grid_phone_number"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textSize="9sp"-->
+        <!--&gt;-->
+    <!--</TextView>-->
 
 </LinearLayout>

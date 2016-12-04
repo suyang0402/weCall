@@ -1,8 +1,10 @@
 package com.wecall.myapps.wecall;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.media.Image;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -87,7 +90,7 @@ public class ImageAdapter extends BaseAdapter {
         }
         TextView textView = (TextView) grid.findViewById(R.id.grid_name);
         TextView textView1 = (TextView) grid.findViewById(R.id.grid_last_time_contact);
-        TextView textView2 = (TextView) grid.findViewById(R.id.grid_phone_number);
+       // TextView textView2 = (TextView) grid.findViewById(R.id.grid_phone_number);
         ImageView imageView = (ImageView) grid.findViewById(R.id.grid_img);
 
 
@@ -95,11 +98,19 @@ public class ImageAdapter extends BaseAdapter {
 
         textView.setText(contacts.get(position).getContact_name());
         textView1.setText(contacts.get(position).getCorrectlyFormatedDate());
-        textView2.setText(contacts.get(position).getString_phone_number());
+        //textView2.setText(contacts.get(position).getString_phone_number());
 
 
         if (contacts.get(position).getPhotoID() != null) {
-            imageView.setImageURI(Uri.parse(contacts.get(position).getPhotoID()));
+            Uri photoUri =Uri.parse(contacts.get(position).getPhotoID());
+            try {
+                Bitmap photoBitmap = MediaStore.Images.Media.getBitmap(mContext.getContentResolver(),photoUri);
+                imageView.setImageBitmap(MainActivity.cropToSquare(photoBitmap));
+            } catch (IOException e) {
+                e.printStackTrace();
+                imageView.setImageResource(mThumbIds[0]);
+            }
+
         } else {
             imageView.setImageResource(mThumbIds[0]);
         }
