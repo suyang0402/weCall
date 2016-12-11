@@ -5,8 +5,11 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,6 +24,7 @@ public class ContactInfo extends AppCompatActivity {
     private String contactName;
     private String contactLastDate;
     private String contactPhotoID;
+    private String contactAddress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +47,8 @@ public class ContactInfo extends AppCompatActivity {
         contactLastDate = dogNumber.getStringExtra("LastContact");
 
         contactPhotoID = dogNumber.getStringExtra("PhotoID");
+        contactAddress = dogNumber.getStringExtra("Address");
+
 
         //  Set the text view
         TextView textView = (TextView) findViewById(R.id.contact_info_text1);
@@ -57,6 +63,21 @@ public class ContactInfo extends AppCompatActivity {
         TextView textView2 = (TextView) findViewById(R.id.date_string);
         textView2.setText(contactLastDate);
 
+        TextView textView3 = (TextView) findViewById(R.id.address_string);
+        textView3.setText(contactAddress);
+
+        FloatingActionButton buttonMap= (FloatingActionButton) findViewById(R.id.button_map);
+        buttonMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //  Create new intent for starting the map activity
+                Intent intent = new Intent(ContactInfo.this, ContactMapActivity.class);
+                intent.putExtra("Name", contactName);
+                intent.putExtra("Address", contactAddress);
+                //  Start activity
+                startActivity(intent);
+            }
+        });
 
 
 
