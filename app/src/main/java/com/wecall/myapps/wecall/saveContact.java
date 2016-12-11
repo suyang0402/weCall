@@ -13,7 +13,6 @@ public class saveContact {
     String string_phone_number;
     String correctlyFormatedDate;
     String photoID;
-    String address;
     int int_phone_number;
 
     //  Constructor 1
@@ -63,15 +62,6 @@ public class saveContact {
         this.string_phone_number = string_phone_number;
         this.correctlyFormatedDate = correctlyFormatedDate;
         this.photoID = photoID;
-    }
-
-    saveContact(String contact_name, String string_last_time_contacted, String string_phone_number, String correctlyFormatedDate, String photoID, String address) {
-        this.contact_name = contact_name;
-        this.string_last_time_contacted = string_last_time_contacted;
-        this.string_phone_number = string_phone_number;
-        this.correctlyFormatedDate = correctlyFormatedDate;
-        this.photoID = photoID;
-        this.address = address;
     }
 
 
@@ -124,9 +114,5 @@ public class saveContact {
 
     public void setInt_last_time_contacted(int int_last_time_contacted) {
         this.int_last_time_contacted = int_last_time_contacted;
-    }
-
-    public String getAddress() {
-        return address;
     }
 }

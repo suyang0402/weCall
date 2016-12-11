@@ -8,14 +8,14 @@
 
 
     <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         android:layout_gravity="center"
         android:id="@+id/heropicture"
         android:layout_centerHorizontal="true"
         android:src="@drawable/hero_src"
         android:adjustViewBounds="true"
-        android:layout_marginTop="5dp"
-        android:layout_width="170dp"
-        android:layout_height="170dp" />
+        android:layout_marginTop="5dp" />
 
     <LinearLayout
         android:id="@+id/text"
@@ -25,15 +25,14 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="5dp">
+        android:layout_margin="10dp">
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text="Do you miss "
+        android:text="You haven't called "
         >
     </TextView>
 
@@ -49,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:text=" ? " />
+        android:text=" for long time" />
 </LinearLayout>
   <!--TextView  <TextView-->
         <!--android:id="@+id/hero_last_time_contact"-->
@@ -73,11 +72,10 @@
         android:id="@+id/fabRecommand"
         android:layout_toRightOf="@+id/heropicture"
         android:layout_centerVertical="false"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/icon_dice"
-        app:backgroundTint="@color/colorOrange"
-        app:elevation="7dp" />
+        android:src="@android:drawable/stat_notify_sync"
+        app:backgroundTint="@color/colorOrange" />
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="match_parent"
@@ -91,99 +89,21 @@
         android:layout_marginLeft="10dp"
         app:backgroundTint="@color/colorOrange"
         android:layout_below="@+id/fabRecommand"
-        android:src="@android:drawable/stat_sys_phone_call" />
+        android:src="@android:drawable/stat_sys_speakerphone" />
 
+    <GridView
+        android:id="@+id/gridview"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:columnWidth="80dp"
+              android:numColumns="auto_fit"
+              android:verticalSpacing="10dp"
+              android:horizontalSpacing="2dp"
+              android:stretchMode="columnWidth"
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_below="@+id/text">
-
-            <TextView
-                android:text="You haven't called them for more than 1 month"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView1"
-                android:textSize="10sp"
-                android:layout_marginLeft="10dp"
-                android:background="?android:attr/actionModeSplitBackground"
-                android:textStyle="italic"
-                android:layout_marginRight="10dp"
-                android:gravity="left|center" />
-
-            <GridView
-                android:id="@+id/gridview1"
-                      android:layout_width="match_parent"
-                android:columnWidth="80dp"
-                      android:numColumns="auto_fit"
-                      android:verticalSpacing="10dp"
-                      android:horizontalSpacing="2dp"
-                      android:stretchMode="columnWidth"
-
-                      android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_height="100dp" />
-
-            <TextView
-                android:text="You haven't called them for more than 1 week"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textSize="10sp"
-                android:layout_marginLeft="10dp"
-                android:background="?android:attr/actionModeSplitBackground"
-                android:textStyle="italic"
-                android:layout_marginRight="10dp"
-                android:gravity="left|center" />
-
-            <GridView
-                android:id="@+id/gridview2"
-                android:layout_width="match_parent"
-                android:columnWidth="80dp"
-                android:numColumns="auto_fit"
-                android:verticalSpacing="10dp"
-                android:horizontalSpacing="2dp"
-                android:stretchMode="columnWidth"
-
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_height="100dp" />
-
-            <TextView
-                android:text="You called them in past week"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3"
-                android:textSize="10sp"
-                android:layout_marginLeft="10dp"
-                android:background="?android:attr/actionModeSplitBackground"
-                android:layout_marginRight="10dp"
-                android:gravity="left|center"
-                android:textStyle="italic"
-                />
-
-            <GridView
-                android:id="@+id/gridview3"
-                android:layout_width="match_parent"
-                android:columnWidth="80dp"
-                android:numColumns="auto_fit"
-                android:verticalSpacing="10dp"
-                android:horizontalSpacing="2dp"
-                android:stretchMode="columnWidth"
-
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-    <!--<Button-->
-        <!--android:text="Map"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/map_contacts_button"-->
-        <!--android:layout_above="@+id/fabCall" />-->
+              android:gravity="center"
+        android:layout_below="@+id/text"
+        android:layout_margin="10dp" />
 
 
 </RelativeLayout>
