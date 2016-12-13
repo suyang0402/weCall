@@ -22,6 +22,8 @@ public class ContactMapActivity extends FragmentActivity implements OnMapReadyCa
     private GoogleMap mMap;
     private String contactName;
     private String contactAddress;
+    private double lat;
+    private double lng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +42,8 @@ public class ContactMapActivity extends FragmentActivity implements OnMapReadyCa
 
         contactName = dogNumber.getStringExtra("Name");
         contactAddress = dogNumber.getStringExtra("Address");
-
+        lat =dogNumber.getDoubleExtra("Lat",0);
+        lng=dogNumber.getDoubleExtra("Lng",0);
 
 
 
@@ -59,36 +62,9 @@ public class ContactMapActivity extends FragmentActivity implements OnMapReadyCa
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        LatLng place = new LatLng(lat, lng);
+        mMap.addMarker(new MarkerOptions().position(place).title(contactName+" lives here")).showInfoWindow();
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(place));
 
-        LatLng place = null;
-        if (Geocoder.isPresent()) {
-            Geocoder geoCoder = new Geocoder(this);
-            List<Address> addressList = null;
-            try {
-                addressList = geoCoder.getFromLocationName(contactAddress, 1);
-                if (addressList != null && addressList.size() > 0) {
-                    double lat = addressList.get(0).getLatitude();
-                    double lng = addressList.get(0).getLongitude();
-                    place = new LatLng(lat, lng);
-                } else {
-                    Log.d("location", "no result for  " + contactAddress);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        }else{
-                    try {
-                        place = MapContacts.getLatLongFromGivenAddress(contactAddress);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    } // end catch
-
-
-        }
-        if (place!=null) {
-            mMap.addMarker(new MarkerOptions().position(place).title(contactName+" lives here"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(place));
-        }
     }
 }

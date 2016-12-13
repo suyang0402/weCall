@@ -92,12 +92,13 @@ public class MainActivity extends AppCompatActivity {
         this.mGridView3 = (GridView) findViewById((R.id.gridview3));
         showContacts();  // This method saves all contacts in the ArrayList of saveContact contacts
         Calendar jan1970 = Calendar.getInstance();
-        jan1970.setTimeInMillis(0);
+        jan1970.setTimeInMillis(-1);
         Calendar month = Calendar.getInstance();
         month.add(Calendar.MONTH,-1);
         Calendar week = Calendar.getInstance();
         week.add(Calendar.DAY_OF_YEAR,-7);
         Calendar today = Calendar.getInstance();
+        today.add(Calendar.DAY_OF_YEAR,10   );
         contacts1=dateInterval(contacts,jan1970,month);
         contacts2=dateInterval(contacts,month,week);
         contacts3=dateInterval(contacts,week,today);
@@ -192,6 +193,18 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ContactInfo.class);
+                intent.putExtra("Name", heroContact.getContact_name());
+                intent.putExtra("Number", heroContact.getString_phone_number());
+                intent.putExtra("LastContact", heroContact.getCorrectlyFormatedDate());
+                intent.putExtra("PhotoID", heroContact.getPhotoID());
+                intent.putExtra("Address", heroContact.getAddress());
+                startActivity(intent);
+            }
+        });
         TextView heroName = (TextView) findViewById(R.id.hero_name);
         heroName.setText(heroContact.getContact_name());
      //   TextView heroLastTime = (TextView) findViewById(R.id.hero_last_time_contact);
@@ -280,13 +293,23 @@ public class MainActivity extends AppCompatActivity {
      */
     private ArrayList<saveContact> getContactNames() {
         ArrayList<saveContact> contacts = new ArrayList<>();                //  ArrayList contacts
-
         Cursor phones = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
         while (phones.moveToNext()) {
 
 
             //  Gets infirmation we want
             String contactName = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+            contactName=contactName.substring(0,Math.min(15,contactName.length()));
+            boolean flag=false;
+            for (saveContact c:contacts ) {
+                if (c.getContact_name().contentEquals(contactName)){
+                    flag=true;
+                    break;
+                }
+            }
+            if (flag) {
+                continue;
+            }
             String contactNumber = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
             String lastTime = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.LAST_TIME_CONTACTED));
             String photoId = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.PHOTO_URI));
@@ -342,6 +365,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ArrayList<saveContact> dateInterval(ArrayList<saveContact> contacts, Calendar dateStart, Calendar dateStop) {
+        if (contacts==null) return null;
         ArrayList<saveContact> res = new ArrayList<>();
         long startTimestamp=dateStart.getTimeInMillis();
         Log.d("time start",startTimestamp+"");

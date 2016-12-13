@@ -1,10 +1,12 @@
 package com.wecall.myapps.wecall;
 
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Build;
+import android.os.Handler;
 import android.provider.ContactsContract;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -26,6 +28,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import okhttp3.Call;
+import okhttp3.Callback;
 import okhttp3.Headers;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -92,8 +96,9 @@ public class MapContacts extends FragmentActivity implements OnMapReadyCallback 
             for (int index = 0; index < locations.size(); index++) {
                 if (locations.get(index).getName() != null && locations.get(index).getCity() != null) {
                     try {
-                            LatLng berlin = getLatLongFromGivenAddress(locations.get(index).getCity());
-                            mMap.addMarker(new MarkerOptions().position(berlin).title(locations.get(index).getName() + " lives here."));
+                        markerFromGivenAddress(locations.get(index).getCity(),mMap,locations.get(index).getName() + " lives here.",this);
+//                            LatLng berlin = getLatLongFromGivenAddress(locations.get(index).getCity());
+//                        mMap.addMarker(new MarkerOptions().position(berlin).title(locations.get(index).getName() + " lives here."));
                     } catch (Exception e) {
                         e.printStackTrace();
                     } // end catch
@@ -166,39 +171,53 @@ public class MapContacts extends FragmentActivity implements OnMapReadyCallback 
     }
 
 
-    public static LatLng  getLatLongFromGivenAddress(String youraddress) throws IOException {
+    public static void  markerFromGivenAddress(String youraddress, final GoogleMap map, final String title, final Context context) throws IOException {
         String uri = "http://maps.google.com/maps/api/geocode/json?address=" +
                 youraddress + "&sensor=false";
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-                .url("http://publicobject.com/helloworld.txt")
+                .url(uri)
                 .build();
+        client.newCall(request).enqueue(new Callback() {
+            Handler mainHandler = new Handler(context.getMainLooper());
+            @Override
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+            }
 
-        Response response = client.newCall(request).execute();
-        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+                String respstring=response.body().string();
+                Log.d("http",respstring);
 
-        System.out.println(response.body().string());
+                JSONObject jsonObject = new JSONObject();
+                try {
+                    jsonObject = new JSONObject(respstring);
 
-        JSONObject jsonObject = new JSONObject();
-        try {
-            jsonObject = new JSONObject(response.body().string());
+                    final double lng = ((JSONArray) jsonObject.get("results")).getJSONObject(0)
+                            .getJSONObject("geometry").getJSONObject("location")
+                            .getDouble("lng");
 
-            double lng = ((JSONArray) jsonObject.get("results")).getJSONObject(0)
-                    .getJSONObject("geometry").getJSONObject("location")
-                    .getDouble("lng");
+                    final double lat = ((JSONArray) jsonObject.get("results")).getJSONObject(0)
+                            .getJSONObject("geometry").getJSONObject("location")
+                            .getDouble("lat");
 
-            double lat = ((JSONArray) jsonObject.get("results")).getJSONObject(0)
-                    .getJSONObject("geometry").getJSONObject("location")
-                    .getDouble("lat");
+                    Log.d("latitude", lat + "");
+                    Log.d("longitude", lng + "");
+                    mainHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            map.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title(title));
+                            map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(lat, lng)));
+                        }
+                    });
 
-            Log.d("latitude", lat + "");
-            Log.d("longitude", lng + "");
-
-            return new LatLng(lat, lng);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        return null;
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }

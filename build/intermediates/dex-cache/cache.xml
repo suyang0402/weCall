@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_9d20c3b5439e5ed0350d7612fd27942cd032858d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_717f15f3890305b096837381246938bddd762088\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_4c9985681bc0be3444cc9480afead2087f5827a8\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_717f15f3890305b096837381246938bddd762088\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,15 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-25.0.1_867b827d34305ef9227cf18e98dc4b9515198543\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
         jumboMode="true"
         optimize="true"
@@ -57,30 +30,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-25.0.1_41fb42f5d1e49d154c4e799444fe5d3ec524d86f\classes.dex" />
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_ca92210aa4adc6a807883d7c78992024c0b48a2a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1_41fb42f5d1e49d154c4e799444fe5d3ec524d86f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1_867b827d34305ef9227cf18e98dc4b9515198543.jar" />
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_26dabe844d49861cb76141724c6ebfe23c66038f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -98,7 +62,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-transition-25.0.1_4b0b76726413d5c0496d48bde0aef50cff209327\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_4b0b76726413d5c0496d48bde0aef50cff209327\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -107,25 +71,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_133c44774adcf01921ecd9bd58ad968330071e51\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-transition-25.0.1_4b0b76726413d5c0496d48bde0aef50cff209327.jar" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -137,31 +83,13 @@
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_434fb21a60ce14b1715de66d201f1fac1902ff81\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.0.1_a3e484b67feb0d5f99ba1e4dcf6c92e00f1fb8e9.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_2ee2e32e144dfe16556c0a69cd0930946fafb10e\classes.dex" />
-    </item>
-    <item
         is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_a3e484b67feb0d5f99ba1e4dcf6c92e00f1fb8e9\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_a3e484b67feb0d5f99ba1e4dcf6c92e00f1fb8e9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -171,60 +99,6 @@
         revision="25.0.0"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_717f15f3890305b096837381246938bddd762088\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-appindexing-10.0.1_fe2eefe284c1d92f81af19815a44c7b9a40c832a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_305505ab2c267dfb7087eefd6539a1da9b07e07b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_fe2eefe284c1d92f81af19815a44c7b9a40c832a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b01f3bc33b6edb026d543cdaff3966c7ec86dc42\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.0.1_606cb41b37c2f8ce7acdca2a1e5d820ec277001f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7.jar" />
     </item>
     <item
         is-multidex="true"
@@ -246,12 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-fragment-25.0.1_606cb41b37c2f8ce7acdca2a1e5d820ec277001f\classes.dex" />
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_1c67678b4e1399ed1651ea0b1d5fabe15251d180\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,51 +138,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_1c67678b4e1399ed1651ea0b1d5fabe15251d180\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_9d20c3b5439e5ed0350d7612fd27942cd032858d\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.0.1_c6d750ad24d86a2199d7dc756adad939db1d8a24.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_101b8207e2a0bae84f8530dfaed1d3fceb3aa072\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_5f675d4a16bce7ceb06571a5039215c1379e8373\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -317,31 +146,13 @@
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_83fb407c80494043c345aabce7c5a3a3cb2451a8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-appindexing-9.8.0_1c67678b4e1399ed1651ea0b1d5fabe15251d180.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-10.0.1_9d20c3b5439e5ed0350d7612fd27942cd032858d.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_7779cf46a950d67339ce7e348e350abf6678ab69\classes.dex" />
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_7521ccf86da70636de85cc28dd1a0c159a0a31f0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_06ac66ae5c0341a63be9681f43ba4d5327c9ba63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -363,57 +183,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_41fb42f5d1e49d154c4e799444fe5d3ec524d86f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_ca92210aa4adc6a807883d7c78992024c0b48a2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_867b827d34305ef9227cf18e98dc4b9515198543\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a7e26f35214ff5dc7ce5e26f0ccbba60f1b44fb0\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.1_6da706d805db2f25f0f06980bef102dafd42df8a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_4001791c938a0e498b151494bc36eb03ba4f9195\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -435,12 +210,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_e6bb905b4fb093dca3e6546a7d306e4f0340acf5\classes.dex" />
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_83fb407c80494043c345aabce7c5a3a3cb2451a8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -450,24 +225,6 @@
         revision="25.0.0"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_a3e484b67feb0d5f99ba1e4dcf6c92e00f1fb8e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_d6a47f3f7b11be36be5520b90cb30030380f361c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -480,30 +237,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-25.0.1_b01f3bc33b6edb026d543cdaff3966c7ec86dc42\classes.dex" />
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_96a564d35d192a18442830cfc50822c796271ad5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_3161ed15561319d3521240d3583eee6a7153df25\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_133c44774adcf01921ecd9bd58ad968330071e51\classes.dex" />
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_57c3a631e374533a33632404fd7c1bef227979ac\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -516,24 +264,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_606cb41b37c2f8ce7acdca2a1e5d820ec277001f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
@@ -543,48 +273,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_7c33be904f8b7581813488cc9715890fff9ef577\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-core-ui-25.0.1_6da706d805db2f25f0f06980bef102dafd42df8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.0.1_133c44774adcf01921ecd9bd58ad968330071e51.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_9d57c942491631f039ddbfc56c12de6904f5f72f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1_b01f3bc33b6edb026d543cdaff3966c7ec86dc42.jar" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_6da706d805db2f25f0f06980bef102dafd42df8a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -594,6 +288,15 @@
         revision="25.0.0"
         sha1="a48dc0b148059764d32500be558702d5ff932058">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_79b79095f825b15e48acc23bb6b03165b32574d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_33c6e030ef76157153c180c433a33e15616b24cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -624,30 +327,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_0643e3702251900e7aa84b833c4fb6d5a1dc35c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-maps-10.0.1_67eea47c12e5b118eb5a90c968be9d16e8375944.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_1c24ad0012c3372900072dcedbf3b31fbfa89b3c\classes.dex" />
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_1e84e4fd4832948f3b8a7f607b04431e8f6eabd6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -660,12 +345,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_3618d0485513a364858cc562da6435251cd4de91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_67eea47c12e5b118eb5a90c968be9d16e8375944\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_67eea47c12e5b118eb5a90c968be9d16e8375944\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -687,15 +381,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_2174e1753b18e9cfe56606a583dcd61bae8d6145\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -705,21 +390,660 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_075e05b7e077c403359a07f2f077af1a16044c33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_2d939f7ebce0038127e9bcc3fa9dbb801febecf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_06ac66ae5c0341a63be9681f43ba4d5327c9ba63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_1c24ad0012c3372900072dcedbf3b31fbfa89b3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e0e4eeaf3db064122d397080966ee3500cad6437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_35f897f5ff0eb7ef0d701d488a9cefc96c0d5874\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_57c3a631e374533a33632404fd7c1bef227979ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_c6d750ad24d86a2199d7dc756adad939db1d8a24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_32f9aaa8aa246f57b9eb92afe7dce800d5d80acc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_e9a57ffa12803dc00aec788e1135adc9a9ae3bcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_538713bc5fb067b4a480f10542bedf95807a431b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_3161ed15561319d3521240d3583eee6a7153df25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_67566145ba7718171e887fa22e5d92ba37396b29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_d2f5c147d9a2493b2f29b81fccb6af7b9fa18c4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e0e4eeaf3db064122d397080966ee3500cad6437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_3618d0485513a364858cc562da6435251cd4de91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_67eea47c12e5b118eb5a90c968be9d16e8375944\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_79b79095f825b15e48acc23bb6b03165b32574d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_7a1e56b65f79972faf711ffa9584425dd2663b77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_075e05b7e077c403359a07f2f077af1a16044c33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_adcda71ebddfe0873194960064356d280e097311\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_1eee6e57e0c15c0f29409e78a9c010ebf909df49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_fcf23b28e710727a3e3e00e61618338df69f5087\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_434fb21a60ce14b1715de66d201f1fac1902ff81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_305505ab2c267dfb7087eefd6539a1da9b07e07b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_1e84e4fd4832948f3b8a7f607b04431e8f6eabd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_d2f5c147d9a2493b2f29b81fccb6af7b9fa18c4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_2ee2e32e144dfe16556c0a69cd0930946fafb10e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_538713bc5fb067b4a480f10542bedf95807a431b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_32f9aaa8aa246f57b9eb92afe7dce800d5d80acc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_9d20c3b5439e5ed0350d7612fd27942cd032858d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_5f675d4a16bce7ceb06571a5039215c1379e8373\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_4c9985681bc0be3444cc9480afead2087f5827a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_867b827d34305ef9227cf18e98dc4b9515198543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_7779cf46a950d67339ce7e348e350abf6678ab69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_41fb42f5d1e49d154c4e799444fe5d3ec524d86f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_d6a47f3f7b11be36be5520b90cb30030380f361c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_705f7de03deb0cf21929e8f3d070836c51c730cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_133c44774adcf01921ecd9bd58ad968330071e51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_7c33be904f8b7581813488cc9715890fff9ef577\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_e6bb905b4fb093dca3e6546a7d306e4f0340acf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_2ee2e32e144dfe16556c0a69cd0930946fafb10e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_fe2eefe284c1d92f81af19815a44c7b9a40c832a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_305505ab2c267dfb7087eefd6539a1da9b07e07b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b01f3bc33b6edb026d543cdaff3966c7ec86dc42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_606cb41b37c2f8ce7acdca2a1e5d820ec277001f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_9d20c3b5439e5ed0350d7612fd27942cd032858d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_0643e3702251900e7aa84b833c4fb6d5a1dc35c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_101b8207e2a0bae84f8530dfaed1d3fceb3aa072\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_5f675d4a16bce7ceb06571a5039215c1379e8373\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_7779cf46a950d67339ce7e348e350abf6678ab69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_41fb42f5d1e49d154c4e799444fe5d3ec524d86f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_867b827d34305ef9227cf18e98dc4b9515198543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4b17463c814bdc562fb0392fa3494063623a0904">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_08b2e8fe5c83eef724b5ea6746e9ac508cf2bd51\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a7e26f35214ff5dc7ce5e26f0ccbba60f1b44fb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.1_165102243cb3e34aaf3c2a2693bec1e6bdf71959.jar" />
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_4001791c938a0e498b151494bc36eb03ba4f9195\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_e6bb905b4fb093dca3e6546a7d306e4f0340acf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_d6a47f3f7b11be36be5520b90cb30030380f361c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b01f3bc33b6edb026d543cdaff3966c7ec86dc42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_3161ed15561319d3521240d3583eee6a7153df25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_101b8207e2a0bae84f8530dfaed1d3fceb3aa072\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_133c44774adcf01921ecd9bd58ad968330071e51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_4c9985681bc0be3444cc9480afead2087f5827a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_606cb41b37c2f8ce7acdca2a1e5d820ec277001f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_7c33be904f8b7581813488cc9715890fff9ef577\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_9d57c942491631f039ddbfc56c12de6904f5f72f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_0643e3702251900e7aa84b833c4fb6d5a1dc35c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_1c24ad0012c3372900072dcedbf3b31fbfa89b3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_40ace4d492b0858b9c84e31f7dffb99873945883\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_2174e1753b18e9cfe56606a583dcd61bae8d6145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_08b2e8fe5c83eef724b5ea6746e9ac508cf2bd51\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -737,7 +1061,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-core-utils-25.0.1_165102243cb3e34aaf3c2a2693bec1e6bdf71959\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_165102243cb3e34aaf3c2a2693bec1e6bdf71959\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -750,30 +1074,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_06ac66ae5c0341a63be9681f43ba4d5327c9ba63\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-media-compat-25.0.1_2d939f7ebce0038127e9bcc3fa9dbb801febecf3\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-10.0.1_7ba1cc45ec788a507313f1eb84d884566eb43ae3.jar" />
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_fc7b9dce85651e59656c154fe679060f01043c2d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -794,15 +1100,6 @@
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_b31da1fc37ac488405684be28f245a0d92517012\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.0.1_2d939f7ebce0038127e9bcc3fa9dbb801febecf3.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="false"
@@ -813,12 +1110,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_16b927aa0dd2b2321d15d940863d62ef4fef4cda\classes.dex" />
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_4001791c938a0e498b151494bc36eb03ba4f9195\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -827,43 +1124,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_7ba1cc45ec788a507313f1eb84d884566eb43ae3\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_7ba1cc45ec788a507313f1eb84d884566eb43ae3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e0e4eeaf3db064122d397080966ee3500cad6437\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-25.0.1_e9a57ffa12803dc00aec788e1135adc9a9ae3bcd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-10.0.1_daa9409fdfd66268a5b35269564f3b77e8ef392e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_57c3a631e374533a33632404fd7c1bef227979ac\classes.dex" />
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_702a62b70605efdaf37da152bff32f1f87d58027\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -872,25 +1142,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_daa9409fdfd66268a5b35269564f3b77e8ef392e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-appcompat-v7-25.0.1_c6d750ad24d86a2199d7dc756adad939db1d8a24\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_e9a57ffa12803dc00aec788e1135adc9a9ae3bcd\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_daa9409fdfd66268a5b35269564f3b77e8ef392e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -899,16 +1151,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-compat-25.0.1_a7e26f35214ff5dc7ce5e26f0ccbba60f1b44fb0\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a7e26f35214ff5dc7ce5e26f0ccbba60f1b44fb0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.1_a7e26f35214ff5dc7ce5e26f0ccbba60f1b44fb0.jar" />
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_9d57c942491631f039ddbfc56c12de6904f5f72f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -917,25 +1169,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_2174e1753b18e9cfe56606a583dcd61bae8d6145\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-common-10.0.1_7a1e56b65f79972faf711ffa9584425dd2663b77.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-impl-10.0.1_2174e1753b18e9cfe56606a583dcd61bae8d6145.jar" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_2174e1753b18e9cfe56606a583dcd61bae8d6145\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -948,66 +1182,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_3618d0485513a364858cc562da6435251cd4de91\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-design-25.0.1_e0e4eeaf3db064122d397080966ee3500cad6437\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_67eea47c12e5b118eb5a90c968be9d16e8375944\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-design-25.0.1_e0e4eeaf3db064122d397080966ee3500cad6437.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1_fcf23b28e710727a3e3e00e61618338df69f5087.jar" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1029,21 +1209,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-common-10.0.1_7a1e56b65f79972faf711ffa9584425dd2663b77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_075e05b7e077c403359a07f2f077af1a16044c33\classes.dex" />
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_f8cf54c3bcbb43f1612a34a1ddc117eb1203e63b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1052,16 +1223,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-v4-25.0.1_c45dc3c6672d3ee3525d8ebe80c4f08da305dca2\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_c45dc3c6672d3ee3525d8ebe80c4f08da305dca2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-iid-10.0.1_b31da1fc37ac488405684be28f245a0d92517012.jar" />
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_a86ff87eacf42fbe9ea72b3888356e69b3096958\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1073,40 +1244,13 @@
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_7ba1cc45ec788a507313f1eb84d884566eb43ae3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1_434fb21a60ce14b1715de66d201f1fac1902ff81.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-25.0.1_fcf23b28e710727a3e3e00e61618338df69f5087\classes.dex" />
-    </item>
-    <item
         is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_b31da1fc37ac488405684be28f245a0d92517012\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-25.0.1_434fb21a60ce14b1715de66d201f1fac1902ff81\classes.dex" />
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_b31da1fc37ac488405684be28f245a0d92517012\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1119,21 +1263,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_1e84e4fd4832948f3b8a7f607b04431e8f6eabd6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
         <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_702a62b70605efdaf37da152bff32f1f87d58027\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_b3328670bb06d6dc6903dc3487b8210b6a865c9f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1146,48 +1290,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_d2f5c147d9a2493b2f29b81fccb6af7b9fa18c4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-10.0.1_717f15f3890305b096837381246938bddd762088.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_538713bc5fb067b4a480f10542bedf95807a431b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_32f9aaa8aa246f57b9eb92afe7dce800d5d80acc\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.1_c45dc3c6672d3ee3525d8ebe80c4f08da305dca2.jar" />
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\kth\Andriod App\weCallMaps-master-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_02cbcc02a8dde0e969ade13de5a1a4ca310d9307\classes.dex" />
     </item>
 
 </items>

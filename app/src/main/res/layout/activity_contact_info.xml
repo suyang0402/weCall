@@ -113,6 +113,27 @@
 
     </LinearLayout>
 
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:paddingLeft="20dp"
+         android:gravity="top"
+         android:layout_below="@+id/address">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Local Time: " />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/localTime_string"
+             android:layout_weight="1" />
+
+     </LinearLayout>
+
      <android.support.design.widget.FloatingActionButton
      android:src="@android:drawable/ic_dialog_map"
          android:background="@color/colorOrange"
@@ -126,5 +147,8 @@
          app:fabSize="mini" />
 
  </RelativeLayout>
+
+
+
 
 </LinearLayout>
